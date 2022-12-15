@@ -19,7 +19,7 @@ class AppPages {
       binding: HomeBinding()
       ),
     GetPage(
-      name: Routes.Splash, 
+      name: Routes.SPLASH, 
       page: () => SplashScreen(), 
       binding: SplashBinding()
       ),  

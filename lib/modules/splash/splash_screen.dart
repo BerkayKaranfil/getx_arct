@@ -3,6 +3,7 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:get/get.dart';
 import 'package:getx_arc/modules/splash/splash_controller.dart';
+
 //class SplashScreen extends StatelessWidget {
 class SplashScreen extends GetView<SplashController> {
   const SplashScreen({super.key});
@@ -11,7 +12,10 @@ class SplashScreen extends GetView<SplashController> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Icon(Icons.center_focus_strong, size: 200,),
+        child: Icon(
+          Icons.flutter_dash,
+          size: 200,
+        ),
       ),
     );
   }

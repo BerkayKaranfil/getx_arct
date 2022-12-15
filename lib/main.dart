@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
           ),
          // home: const MyHomePage(title: 'Flutter Demo Home Page'),
          getPages: AppPages.routes,
-         initialRoute: Routes.Splash,
+         initialRoute: Routes.SPLASH,
         // AppPages.INITIAL_SPLASH, app_pages'in içindeki tanımladığımızı kullanmak istersek bunu kullanabiliriz.
          
          
