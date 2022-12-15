@@ -8,8 +8,7 @@ class SplashController extends GetxController {
      super.onReady();
      print("splash açıldı.");
      await Future.delayed(Duration(milliseconds: 3000));
-     Get.toNamed(Routes.HOME);
-     
+     Get.toNamed(Routes.HOME, parameters: {'data' : 'Berkay Karanfil'});
   } 
 
 }

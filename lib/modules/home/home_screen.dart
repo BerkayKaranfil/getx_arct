@@ -9,10 +9,10 @@ class HomeScreen extends GetView<HomeController> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return  Scaffold(
       body: Center(
         child: Text(
-          "HomeScreen",
+          "${controller.data}",
           style: TextStyle(fontSize: 37),
         ),
       ),
