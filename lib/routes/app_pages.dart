@@ -7,9 +7,9 @@ import 'package:getx_arc/modules/splash/splash_screen.dart';
 part 'app_routes.dart';
 
 class AppPages {
-  //static const INITIAL = Routes.HOME;
+  
   static const INITIAL = Routes.HOME;
-  static const INITIAL_SPLASH = Routes.Splash;
+  //static const INITIAL_SPLASH = Routes.Splash;
   
 
   static final routes = [

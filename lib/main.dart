@@ -23,8 +23,9 @@ class MyApp extends StatelessWidget {
           ),
          // home: const MyHomePage(title: 'Flutter Demo Home Page'),
          getPages: AppPages.routes,
-         initialRoute: AppPages.INITIAL_SPLASH,
-         //Routes.Splash üste bunuda yazabiliriz app_pagesin içindeki static tanımladığımız parametreyi kullanmak istersek
+         initialRoute: Routes.Splash,
+        // AppPages.INITIAL_SPLASH, app_pages'in içindeki tanımladığımızı kullanmak istersek bunu kullanabiliriz.
+         
          
          enableLog: true,  // Uygulamayı geliştirirken bize loglar döndürmesini istiyoruz. Release yaparken false yapıcaz, Normalde zaten true geliyor görmek için yazdık.
         );

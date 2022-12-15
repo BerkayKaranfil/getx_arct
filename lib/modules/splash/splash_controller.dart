@@ -1,9 +1,11 @@
 import 'package:get/get.dart';
 
-class SplashController extends GetxController{
+
+class SplashController extends GetxController {
   @override
   void onInit() {
     super.onInit();
     print("splash açıldı.");
+    
   }
 }
